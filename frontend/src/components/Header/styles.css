@@ -1,0 +1,73 @@
+header>nav>ul,
+header>nav>ul>li,
+header>h1,
+header>ul,
+header>a,
+header>ul>li {
+    display: inline-block;
+}
+
+header {
+    background-color: var(--background-primary);
+    height: 15vh;
+    width: 100%;
+    padding: 1em;
+    padding-top: 1em;
+}
+
+header>a {
+    text-decoration: none;
+}
+
+header>a>h1 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+}
+
+header>a>h1>span {
+    font-family: 'Updock', 'Courier New', Courier, monospace;
+    font-size: 1.4em;
+    padding-left: 5px;
+}
+
+header>ul,
+header>nav>ul {
+    list-style-type: none;
+    float: right;
+    margin-top: 10px;
+    margin-right: 5em;
+}
+
+header>nav>ul {
+    margin: 10px;
+    float: none;
+}
+
+header>ul>li>a,
+header>nav>ul>li>a {
+    color: white;
+    margin: 10px;
+    font-size: 1.1em;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+header>ul>li+li {
+    margin-left: 50px;
+}
+
+header>ul>li>a:hover,
+header>nav>ul>li>a:hover {
+    color: grey;
+    transition: color 1s;
+}
+
+header>ul>li>a.active,
+header>nav>ul>li>a.active {
+    color: grey;
+}
+
+.login {
+    display: none;
+}
