@@ -26,23 +26,18 @@ function Filme(props) {
                     Promoção Semanal
                 </h2>
                 <br></br>
-                {/* <ul class="slider">
-                    <li>
-                        <input type="radio" id="slide1" name="slide" checked></input>
-                        <label for="slide1"></label>
-                        <img src="https://i.pinimg.com/originals/0f/5b/fa/0f5bfacda6921a51234cd48f3606d45f.jpg" />
-                    </li>
-                    <li>
-                        <input type="radio" id="slide2" name="slide"></input>
-                        <label for="slide2"></label>
-                        <img src="https://www.ocamundongo.com.br/wp-content/uploads/2011/06/carros-2-poster-final.jpg" />
-                    </li>
-                    <li>
-                        <input type="radio" id="slide3" name="slide"></input>
-                        <label for="slide3"></label>
-                        <img src="https://i.pinimg.com/originals/1e/2e/17/1e2e1707ca1baab6fecdd026d69899ba.jpg" />
-                    </li>
-                </ul> */}
+                <div class="box">
+                    <img id='img1' src="https://i.pinimg.com/originals/0f/5b/fa/0f5bfacda6921a51234cd48f3606d45f.jpg" />
+                    <h3>Carros 1</h3>
+                </div>
+                <div class="box">
+                    <img id='img2' src="https://www.ocamundongo.com.br/wp-content/uploads/2011/06/carros-2-poster-final.jpg" />
+                    <h3>Carros 2</h3>
+                </div>
+                <div class="box">
+                    <img id='img3' src="https://i.pinimg.com/originals/1e/2e/17/1e2e1707ca1baab6fecdd026d69899ba.jpg" />
+                    <h3>Carros 3</h3>
+                </div>
             </body>
 
         </>

@@ -1,6 +1,4 @@
-css reset
-
-* {
+css reset * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,14 +10,16 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.7em;
 }
-.navigator{
+
+.navigator {
     background-color: #ddd;
 }
-#paginafilmes{
+
+#paginafilmes {
     /* background-color: #ddd; */
 }
 
-#t1{
+#t1 {
     color: black;
 }
 
@@ -262,10 +262,11 @@ h2+p {
     border-radius: 50%;
 }
 
-p div{
+p div {
     text-decoration: #000;
 }
-#teste{
+
+#teste {
     text-decoration: #000;
 }
 
@@ -376,43 +377,20 @@ ul {
     text-align: justify;
 }
 
-.slider {
-    display: block;
-    height: 293px;
-    width: 600px;
-    margin: auto;
-    margin-top: 20px;
-    position: relative;
+#img1,
+#img2,
+#img3 {
+
+    display: inline-block;
+    width: 200px;
+    height: 400px;
 }
 
-.slider li {
-    list-style: none;
-    position: absolute;
-}
-
-.slider img {
-    margin: auto;
-    height: 60%;
-    width: 60%;
-    vertical-align: top;
-}
-
-.slider input {
-    display: none;
-}
-
-.slider img {
-    opacity: 0;
-    visibility: hidden;
-}
-
-.slider li input:checked~img {
-    opacity: 1;
-    visibility: visible;
-    z-index: 10;
-}
-
-#promo{
+#promo {
     text-align: center;
     color: rgb(248, 248, 248);
+}
+
+h3 {
+    color: #ffffff;
 }
