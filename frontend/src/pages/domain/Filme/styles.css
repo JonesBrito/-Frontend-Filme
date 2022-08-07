@@ -13,6 +13,10 @@ body {
     line-height: 1.7em;
 }
 
+#t1{
+    color: black;
+}
+
 a {
     color: #111;
     text-decoration: none;

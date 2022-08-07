@@ -11,6 +11,7 @@ css reset
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.7em;
+    /* background-color: #333; */
 }
 
 a {
@@ -18,10 +19,14 @@ a {
     text-decoration: none;
 }
 
+#titulo{
+    color: #000000;
+}
 h1,
 h2,
 h3 {
     padding-bottom: 20px;
+    
 }
 
 p {

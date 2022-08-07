@@ -20,6 +20,9 @@ function Quarto(props) {
                 </ul>
             </nav>
 
+            <body>
+                <h2 id='t1'>Teste</h2>
+            </body>
 
             {/* <EditableList title='Quartos' data={data}/> */}
         </>
