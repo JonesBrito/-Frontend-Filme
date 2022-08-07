@@ -64,7 +64,7 @@ function CadastrarFilme(props) {
                 <br />
 
                 <label htmlFor="number">Preço</label><br />
-                <input type="number" name='preco' value={preco} onChange={e => setPreco(e.target.value)} required />
+                <input type="float" name='preco' value={preco} onChange={e => setPreco(e.target.value)} required />
                 <br />
 
                 <button type="submit">Cadastrar</button>

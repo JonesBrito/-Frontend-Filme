@@ -43,11 +43,13 @@ const MostrarFilme = () => {
                         listFilmes.map((filme, i) => {
                             return <div className="data" key={i}>
                                 <fieldset>
-                                <li>{`Filme: ${filme.nome}.`}</li>
-                                <li>{`Descrição: ${filme.descricao}`}</li>
-                                <li>{`Genero: ${filme.genero}`}</li>
-                                <li>{`Ano de lançamento: ${filme.anolancamento}`}</li>
-                                    <li>{`Preço: ${filme.preco}`}</li>
+                                    <ul id='listafilmes'>
+                                        <li>{`Filme: ${filme.nome}.`}</li>
+                                        <li>{`Descrição: ${filme.descricao}.`}</li>
+                                        <li>{`Genero: ${filme.genero}.`}</li>
+                                        <li>{`Ano de lançamento: ${filme.anolancamento}.`}</li>
+                                        <li>{`Preço: ${filme.preco}.`}</li>
+                                    </ul>
                                 </fieldset>
                             </div>
                         })

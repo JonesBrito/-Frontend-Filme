@@ -9,6 +9,12 @@ css reset
 /* Main Styling */
 fieldset {
     background-color: rgb(61, 60, 60);
+    margin: 2px;
+}
+
+#listafilmes{
+    margin: 20px;
+    list-style: none;
 }
 #mostrar{
     text-align: center;
