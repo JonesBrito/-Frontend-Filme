@@ -5,6 +5,8 @@ import Home from './pages/Home';
 import Layout from './pages/Layout';
 import Login from './pages/Login';
 import Filme from './pages/domain/Filme';
+import Sobre from './pages/domain/Sobre';
+import Ajuda from './pages/domain/Ajuda';
 
 import CadastrarFilme from './pages/process/Filme/cadastrar';
 import MostrarFilme from './pages/process/Filme/mostrarfilmes';
@@ -20,6 +22,8 @@ function Router() {
 
                     {/* Domain pages */}
                     <Route path='/filme' element={<Filme />} />
+                    <Route path='/sobre' element={<Sobre />} />
+                    <Route path='/ajuda' element={<Ajuda />} />
                     {/*<Route path='/localevento' element={<LocalEvento />} />
                     <Route path='/criar-localevento' element={<CreateLocalEvento />} />
                     <Route path='/atualizar-localevento' element={<UpdateLocalEvento />} />

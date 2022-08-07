@@ -41,7 +41,7 @@ function Header() {
                         <NavLink to='/filme' className={!isLoggedIn ? 'login' : ''}>Filmes</NavLink>
                     </li>
                     <li>
-                        <NavLink to='/sobre-nos' className={!isLoggedIn ? 'login' : ''}>Sobre nós</NavLink>
+                        <NavLink to='/sobre' className={!isLoggedIn ? 'login' : ''}>Sobre nós</NavLink>
                     </li>
                     <li>
                         <NavLink to='/ajuda' className={!isLoggedIn ? 'login' : ''}>Ajuda</NavLink>

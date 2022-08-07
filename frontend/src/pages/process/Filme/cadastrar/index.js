@@ -54,6 +54,7 @@ function CadastrarFilme(props) {
 
                 <label htmlFor="genero">Gênero</label><br />
                 <select name="genero" id="genero" value={genero} onChange={e => setGenero(e.target.value)} required>
+                    <option value="">Escolha uma opção</option>
                     <option value="acao">Ação</option>
                     <option value="animação">Animação</option>
                     <option value="drama">Drama</option>

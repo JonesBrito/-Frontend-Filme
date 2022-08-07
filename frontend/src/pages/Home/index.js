@@ -10,9 +10,9 @@ function Home() {
                 <div class="infoImg"></div>
                 <div class="infoContent">
                     <h2><span class="textPrimary">A História </span>Do Nosso Site</h2>
-                    <p>O BritoFlix começou a partir do sonho de tornar serviços de .
+                    <p>O JSFlix começou a partir do sonho de tornar referência no seu setor de atuação.
                     </p>
-                    <a href="sobre.html" class="btn btnLight">Leia Mais</a>
+                    <a href="/sobre" class="btn btnLight">Leia Mais</a>
                 </div>
             </section>
             <section id="features">

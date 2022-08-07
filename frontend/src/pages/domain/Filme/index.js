@@ -45,7 +45,6 @@ function Filme(props) {
                 </ul> */}
             </body>
 
-            {/* <EditableList title='Quartos' data={data}/> */}
         </>
     );
 }
