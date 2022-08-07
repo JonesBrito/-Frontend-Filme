@@ -9,6 +9,7 @@ function CadastrarFilme(props) {
     const [produtora, setProdutora] = useState('');
     const [genero, setGenero] = useState('');
     const [preco, setPreco] = useState('');
+    const [anolancamento, setAnolancamento] = useState('');
 
     const navigate = useNavigate();
 
@@ -20,6 +21,7 @@ function CadastrarFilme(props) {
             nome: nome,
             descricao: descricao,
             produtora: produtora,
+            anolancamento: anolancamento,
             genero: genero,
             preco: preco,
         }
@@ -45,7 +47,12 @@ function CadastrarFilme(props) {
                 <label htmlFor="produtora">Produtora</label><br />
                 <input type="text" name='produtora' value={produtora} onChange={e => setProdutora(e.target.value)} required />
 
-                <label htmlFor="anolancamento">Gênero</label><br />
+                <label htmlFor="anolancamento">Ano de Lançamento</label><br />
+                <input type="text" name='anolancamento' value={anolancamento} onChange={e => setAnolancamento(e.target.value)} required />
+
+
+
+                <label htmlFor="genero">Gênero</label><br />
                 <select name="genero" id="genero" value={genero} onChange={e => setGenero(e.target.value)} required>
                     <option value="acao">Ação</option>
                     <option value="animação">Animação</option>

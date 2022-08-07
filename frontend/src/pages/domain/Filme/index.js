@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import EditableList from '../../../components/EditableList';
 import './styles.css';
 
-function Quarto(props) {
+function Filme(props) {
     let data = [
         { info: 'Informacao', id: 0 }
     ];
@@ -12,16 +12,37 @@ function Quarto(props) {
             <nav className='navigator'>
                 <ul>
                     <li>
-                        <NavLink to='/cadastrar-filme'>Cadastrar Novo Filme</NavLink>
+                        <NavLink to='/cadastrar-filme'>Cadastrar Filme</NavLink>
                     </li>
                     <li>
-                        <NavLink to='/'>Relatórios dos Filmes</NavLink>
+                        <NavLink to='/mostrar-filme'>Filmes Disponíveis</NavLink>
                     </li>
                 </ul>
             </nav>
 
-            <body>
-                <h2 id='t1'>Teste</h2>
+            <body id='paginafilmes'>
+                <br></br>
+                <h2 id='promo'>
+                    Promoção Semanal
+                </h2>
+                <br></br>
+                {/* <ul class="slider">
+                    <li>
+                        <input type="radio" id="slide1" name="slide" checked></input>
+                        <label for="slide1"></label>
+                        <img src="https://i.pinimg.com/originals/0f/5b/fa/0f5bfacda6921a51234cd48f3606d45f.jpg" />
+                    </li>
+                    <li>
+                        <input type="radio" id="slide2" name="slide"></input>
+                        <label for="slide2"></label>
+                        <img src="https://www.ocamundongo.com.br/wp-content/uploads/2011/06/carros-2-poster-final.jpg" />
+                    </li>
+                    <li>
+                        <input type="radio" id="slide3" name="slide"></input>
+                        <label for="slide3"></label>
+                        <img src="https://i.pinimg.com/originals/1e/2e/17/1e2e1707ca1baab6fecdd026d69899ba.jpg" />
+                    </li>
+                </ul> */}
             </body>
 
             {/* <EditableList title='Quartos' data={data}/> */}
@@ -29,4 +50,4 @@ function Quarto(props) {
     );
 }
 
-export default Quarto;
+export default Filme;

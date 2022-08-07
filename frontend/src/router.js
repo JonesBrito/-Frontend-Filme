@@ -7,6 +7,7 @@ import Login from './pages/Login';
 import Filme from './pages/domain/Filme';
 
 import CadastrarFilme from './pages/process/Filme/cadastrar';
+import MostrarFilme from './pages/process/Filme/mostrarfilmes';
 
 function Router() {
     return (
@@ -26,6 +27,7 @@ function Router() {
 
                     {/* Process */}
                     <Route path='/cadastrar-filme' element={<CadastrarFilme />} />
+                    <Route path='/mostrar-filme' element={<MostrarFilme />} />
                     {/* <Route path='/checkin' element={<CheckIn />} />
                     <Route path='/criar-checkin' element={<CreateCheckIn />} />
                     <Route path='/atualizar-checkin' element={<UpdateCheckIn />} />

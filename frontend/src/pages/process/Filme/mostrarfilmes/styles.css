@@ -7,20 +7,16 @@ css reset
 }
 
 /* Main Styling */
-
+fieldset {
+    background-color: rgb(61, 60, 60);
+}
+#mostrar{
+    text-align: center;
+}
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.7em;
-}
-.navigator{
-    background-color: #ddd;
-}
-#paginafilmes{
-    /* background-color: #ddd; */
-}
-
-#t1{
-    color: black;
+     background-color: #333; 
 }
 
 a {
@@ -28,10 +24,14 @@ a {
     text-decoration: none;
 }
 
+#titulo{
+    color: #000000;
+}
 h1,
 h2,
 h3 {
     padding-bottom: 20px;
+    
 }
 
 p {
@@ -374,45 +374,4 @@ section#testimonials>div.container div>a>p>span {
 .lgHeading~p,
 ul {
     text-align: justify;
-}
-
-.slider {
-    display: block;
-    height: 293px;
-    width: 600px;
-    margin: auto;
-    margin-top: 20px;
-    position: relative;
-}
-
-.slider li {
-    list-style: none;
-    position: absolute;
-}
-
-.slider img {
-    margin: auto;
-    height: 60%;
-    width: 60%;
-    vertical-align: top;
-}
-
-.slider input {
-    display: none;
-}
-
-.slider img {
-    opacity: 0;
-    visibility: hidden;
-}
-
-.slider li input:checked~img {
-    opacity: 1;
-    visibility: visible;
-    z-index: 10;
-}
-
-#promo{
-    text-align: center;
-    color: rgb(248, 248, 248);
 }
