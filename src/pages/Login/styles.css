@@ -6,6 +6,10 @@ css reset
     box-sizing: border-box;
 }
 
+fieldset {
+   background: white;
+}
+
 /* Main Styling */
 
 body {
