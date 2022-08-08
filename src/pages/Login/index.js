@@ -27,7 +27,8 @@ function Login(props) {
                     <input type="radio" name='usertype' id='cliente' value='cliente' />
                     <label htmlFor="cliente"> Cliente</label><br />
                 </fieldset>
-
+                <br />
+                <br />
                 <input type="submit" />
             </form>
         </>
