@@ -48,7 +48,7 @@ const MostrarFilme = () => {
                                         <li>{`Descrição: ${filme.descricao}.`}</li>
                                         <li>{`Genero: ${filme.genero}.`}</li>
                                         <li>{`Ano de lançamento: ${filme.anolancamento}.`}</li>
-                                        <li>{`Preço: R$ ${filme.preco} .`}</li>
+                                        <li>{`Preço: R$ ${filme.preco}.`}</li>
                                     </ul>
                                 </fieldset>
                             </div>
