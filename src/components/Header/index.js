@@ -27,9 +27,9 @@ function Header() {
                 <li>
                     <NavLink to="/entrar" className={isLoggedIn ? 'login' : ''}>Entrar</NavLink>
                 </li>
-                <li>
-                    <NavLink to="/criar-conta" className={isLoggedIn ? 'login' : ''}>Criar conta</NavLink>
-                </li>
+                {/* <li>
+                    {/* <NavLink to="/criar-conta" className={isLoggedIn ? 'login' : ''}>Criar conta</NavLink>
+                </li> */}
 
                 <li>
                     <a onClick={logout} className={!isLoggedIn ? 'login' : ''}>Sair</a>
