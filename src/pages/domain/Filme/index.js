@@ -35,7 +35,7 @@ function Filme(props) {
                     <h3>Carros 2</h3>
                 </div>
                 <div class="box">
-                    <video id='img3' src="https://youtu.be/OxMQORNh2E4" />
+                    <img id='img3' src="https://upload.wikimedia.org/wikipedia/pt/9/94/Cars_3_poster.jpg" />
                     <h3>Carros 3</h3>
                 </div>
             </body>
