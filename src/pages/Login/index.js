@@ -24,8 +24,6 @@ function Login(props) {
                     <legend>Tipo de Usuário</legend>
                     <input type="radio" name='usertype' id='gerente' value='gerente' />
                     <label htmlFor="gerente"> Gerente</label><br />
-                    <input type="radio" name='usertype' id='funcionario' value='funcionario' />
-                    <label htmlFor="funcionario"> Funcionário</label><br />
                     <input type="radio" name='usertype' id='cliente' value='cliente' />
                     <label htmlFor="cliente"> Cliente</label><br />
                 </fieldset>
